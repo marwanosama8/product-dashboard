@@ -3,7 +3,7 @@
         <div class="flex flex-col gap-2">
             <label for="category" class="text-gray-700">{{ __('lang.category_filter') }}:</label>
             <select wire:model='selected.category' class="rounded-md bg-gray-100" name="category_id">
-                <option selected>...</option>
+                <option value="" selected>{{__('lang.all')}}</option>
                 @foreach (App\Models\Category::all() as $index => $data)
                     <option class="text-gray-500" value="{{ $data->id }}">{{ $data->name }}
                     </option>

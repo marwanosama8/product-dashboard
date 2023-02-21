@@ -40,4 +40,6 @@ return [
     "name_filter" => 'Name Filter',
     "You're logged in!" => "You're logged in!",
     "Theres no cat" => "There's no categories right now, add some!",
+    "all" => "All Categories",
+
 ];
